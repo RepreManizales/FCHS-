@@ -7,7 +7,7 @@ declare global {
   }
 }
 
-const App: React.Component = () => {
+const App: React.FC = () => {
   const [visibleComments, setVisibleComments] = useState('todos');
 
   // Datos de los comentarios extraídos del documento
